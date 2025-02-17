@@ -90,13 +90,14 @@ ol {
 .content__list-container {
   height: 298px;
   overflow-y: auto;
+  position: relative;
 }
 
 .result__video-container {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
-
+  position: relative;
 }
 
 .result__video {
@@ -321,16 +322,9 @@ button:focus-visible {
 
 .content__list-item {
   padding: 0 3px 0 3px;
-}
-
-.content__list-item {
   cursor: pointer;
 }
 
-.result__video-container {
-  position: relative;
-}
 
-.content__list-container {
-  position: relative;
-}
+
+
